@@ -4,7 +4,6 @@ function createWindow () {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    title: '灵犀 | 个人助手',
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true

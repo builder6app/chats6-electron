@@ -13,7 +13,7 @@
   },
   "build": {
     "appId": "com.steedos.chats6",
-    "productName": "灵犀 AI",
+    "productName": "华炎 AI",
     "mac": {
       "category": "public.app-category.productivity",
       "icon": "build/icon.icns"

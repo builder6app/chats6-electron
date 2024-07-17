@@ -1,6 +1,22 @@
 {
   "name": "chats6-electron",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.2.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.steedos.chats6",
+    "productName": "灵犀 AI",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "icon": "build/icon.icns"
+    }
+  }
 }
